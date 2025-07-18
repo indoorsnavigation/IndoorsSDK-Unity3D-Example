@@ -24,6 +24,18 @@ This repository demonstrates how to use **IndoorsSDK** in Unity to display indoo
 
 ---
 
+### Beacon Configuration Required
+
+To start receiving indoor position data from the Indoors SDK, you need to configure at least one physical iBeacon with the following parameters:
+
+- **UUID:** `EF12688D-38CF-36CB-8811-1F7C2F6B33E2`  
+- **Major:** `10272`  
+- **Minor:** `317`
+
+Make sure the beacon is powered on and within range of your test device. The SDK will only provide positioning data if at least one correctly configured beacon is detected nearby.
+
+---
+
 ## 📱 Building for iOS
 
 ### Requirements
