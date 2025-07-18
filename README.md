@@ -53,3 +53,20 @@ This repository demonstrates how to use **IndoorsSDK** in Unity to display indoo
    ```bash
    pod install
    ```
+   ---
+   
+# 🤖 Building for Android
+
+## Requirements
+- Unity 2022.3.6f1
+- Android Studio (Latest stable version)
+- JDK 11 (Required for Unity 2022)
+- Gradle 7.x (Recommended for compatibility)
+- Android SDK:
+  - Min SDK: 24 (Android 7.0 Nougat)
+    
+## Steps
+
+1. Build Android Project in Unity  
+   File → Build Settings → Android → Switch Platform → Build  
+2. After the build completes, navigate to the output folder.
